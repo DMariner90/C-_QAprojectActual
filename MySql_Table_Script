@@ -1,0 +1,8 @@
+create database QA_project;
+use QA_project;
+create table sales(Sales_ID(4) auto_increment, primary key, Product_Name varchar(20), Quantity int(4), Price float, Sales_Date now();
+insert into sales values (Sales_ID, "Apple", 10, 5.50, now();
+insert into sales values (Sales_ID, "Bananas", 20, 10.00, now();
+insert into sales values (Sales_ID, "Grapes", 30, 8.50, now();
+insert into sales values (Sales_ID, "Oranges", 5, 12.00, now();
+select * from sales;
